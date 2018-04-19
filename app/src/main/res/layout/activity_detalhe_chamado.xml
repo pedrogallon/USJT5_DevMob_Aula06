@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.usjt.deswebmob.servicedeskcco.controller.DetalheChamadoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/foto_fila_detalhe"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:padding="5dp" />
+            <TextView
+                android:id="@+id/valor_fila"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_numero"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/valor_numero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_status"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/valor_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_abertura"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/valor_abertura"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_fechamento"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/valor_fechamento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_descricao"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/valor_descricao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
