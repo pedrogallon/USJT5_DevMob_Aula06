@@ -28,7 +28,7 @@ public class ListarChamadosActivity extends Activity {
         setContentView(R.layout.activity_listar_chamados);
         Intent intent = getIntent();
         chamados = (ArrayList<Chamado>)intent.getSerializableExtra(MainActivity.CHAMADOS);
-        listView = findViewById(R.id.lista_chamados);
+        listView = (ListView) findViewById(R.id.lista_chamados);
         ChamadoAdapter adapter = new ChamadoAdapter(this, chamados);
         listView.setAdapter(adapter);
         contexto = this;
